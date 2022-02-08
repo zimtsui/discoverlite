@@ -1,0 +1,17 @@
+{
+  "name": "discoverlite",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./build/discoverlite.js",
+  "types": "./build/discoverlite.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b ./src/tsconfig.json"
+  },
+  "author": "Zim",
+  "dependencies": {
+    "@types/better-sqlite3": "^7.4.2",
+    "better-sqlite3": "^7.5.0",
+    "startable": "github:zimtsui/startable"
+  }
+}
